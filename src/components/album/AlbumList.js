@@ -31,6 +31,6 @@ class AlbumList extends Component{
     )
   }
 }
-export default AlbumList;
+export {AlbumList};
 
 // http://rallycoding.herokuapp.com/api/music_albums

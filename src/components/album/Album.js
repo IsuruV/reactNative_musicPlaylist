@@ -2,7 +2,7 @@ import React from 'react';
 import {View, Text, Image, Linking} from 'react-native';
 import Card from './Card';
 import CardSection from './CardSection';
-import Button from './Button'
+import Button from '../common/Button'
 
 const Album = ({album})=>{
   const {title, artist, thumbnail_image, image, url} = album;
@@ -50,4 +50,4 @@ styles={
   }
 }
 
-export default Album;
+export {Album};
